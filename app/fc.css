@@ -1,0 +1,92 @@
+/* Remove all borders */
+.fc td,
+.fc th,
+.fc table,
+.fc .fc-scrollgrid,
+.fc .fc-scrollgrid-section > td,
+.fc .fc-daygrid-day,
+.fc .fc-col-header-cell {
+    border: none !important;
+    outline: none !important;
+}
+
+.fc .fc-daygrid-day-top {
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.fc .fc-daygrid-day-frame {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    min-height: 64px !important;
+}
+
+.fc .fc-day-today {
+    background-color: #f0773f !important;  /* change to your color */
+}
+
+/* Today's date number */
+.fc .fc-day-today .fc-daygrid-day-top {
+    color: rgb(0, 0, 0) !important;
+}
+
+
+/* Only target body day cells, not the header */
+.fc .fc-daygrid-body .fc-day-sat,
+.fc .fc-daygrid-body .fc-day-sun {
+    cursor: not-allowed !important;
+    pointer-events: none !important;
+    color: #0000002f;
+}
+
+
+
+/* Remove scrollgrid inner borders */
+.fc .fc-scrollgrid-sync-table,
+.fc .fc-daygrid-body {
+    border: none !important;
+}
+
+.fc-prev-button,
+.fc-next-button {
+  background-color: transparent !important;
+  border: none !important;
+  color: white !important;
+  font-size: 1.25rem !important;
+  padding: 0.5rem !important;
+  border-radius: 9999px !important;
+  transition: background 0.2s;
+}
+
+.fc-prev-button:hover,
+.fc-next-button:hover {
+  background-color: #d8622b !important;
+}
+
+.fc-prev-button:disabled,
+.fc-next-button:disabled {
+    display: none;
+  cursor: not-allowed;
+}
+
+.fc .fc-toolbar {
+    background-color: #f0773f;
+    padding: 5px 16px;
+}
+
+/* Month/year title text */
+.fc .fc-toolbar-title {
+    color: white;
+    font-size: 1rem;
+}
+
+
+.fc .fc-toolbar {
+    margin-bottom: 0 !important;
+}
+
+/* Or if there's padding on the table wrapper */
+.fc .fc-view-harness {
+    margin-top: 0 !important;
+}

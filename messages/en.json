@@ -1,6 +1,531 @@
+
 {
+  "about-us": {
+    "a": {
+      "title": "About Innovazy",
+      "heading": "Innovating Digital Experiences That Shape the Future.",
+      "description": "At Innovazy, we combine innovation, technology, and creativity to build powerful digital solutions that help businesses grow, scale, and succeed in an ever-evolving digital world.",
+      "supportingText": "Driven by Innovation. Powered by Technology."
+    }
+  },
+  "blogs": {
+    "b": {
+      "title": "Blogs",
+      "heading": "Insights, Ideas & Digital Innovation",
+      "description": "Explore the latest trends, strategies, and expert insights shaping the future of technology, design, and business growth.",
+      "supportingText": "Ideas, insights, and updates on digital innovation."
+    },
+    "grid": {
+      "sectionHeading": "Latest Articles & Insights",
+      "sectionDesc": "Explore our recent blogs, ideas, and updates on technology, design, and digital innovation.",
+      "noBlogs": "At the moment, we don't have any published articles. Please check back soon for our latest updates, insights, and stories."
+    }
+  },
+  "careers": {
+  "c": {
+    "title": "Careers at Innovazy",
+    "heading": "Build the Future of Technology With Innovazy.",
+    "description": "Join a passionate team of innovators, developers, designers, and problem-solvers dedicated to creating impactful digital solutions that transform businesses and shape the future of technology.",
+    "supportingText": "Grow Your Career. Create Meaningful Impact."
+  },
+  "roles": {
+    "sectionHeading": "Explore Openings",
+    "sectionDesc": "Discover exciting opportunities to grow your skills, work on innovative projects, and build a meaningful career with a team that values creativity, collaboration, and technology.",
+    "applyNow": "Apply Now",
+    "noRoles": "At the moment, we don't have any available positions. Please check back soon or stay connected with us to be the first to know when new opportunities arise."
+  },
+  "benefits": {
+    "sectionHeading": "Benefits at Innovazy",
+    "sectionDesc": "At Innovazy, we prioritize our team's growth, well-being, and success by offering a supportive environment, competitive benefits, and opportunities to thrive.",
+    "b1Heading": "Competitive Compensation",
+    "b1Desc": "We provide a competitive salary package that recognizes the skills and expertise of our employees. Innovazy believes in rewarding exceptional performance and offering opportunities for financial growth.",
+    "b2Heading": "Health and Wellness",
+    "b2Desc": "We prioritize the health and well-being of our employees by providing comprehensive medical, dental, and vision insurance plans. We also offer gym memberships, and resources to support a healthy lifestyle.",
+    "b3Heading": "Retirement Planning",
+    "b3Desc": "Innovazy is committed to helping employees plan for their future. We offer a retirement savings plan with a generous employer match to help them build a secure financial foundation for the long term.",
+    "b4Heading": "Work-Life Balance",
+    "b4Desc": "We understand the importance of maintaining a healthy work-life balance. Innovazy offers flexible work arrangements, paid time off, parental leave, and other programs that support employees."
+  }
+},
+  "common": {
+    "meta":  {
+      "about-us": {
+        "title": "About Innovazy | Odoo ERP Development & Custom Solutions Experts",
+        "description": "Innovazy is a specialized Odoo development agency providing ERP implementation, customization, and business automation solutions to help companies streamline operations and scale efficiently."
+      },
+      "blogs": {
+        "title": "Innovazy Blogs | Insights on Technology, Design & Digital Growth",
+        "description": "Explore the latest blogs from Innovazy covering web development, UI/UX design, digital innovation, business growth, and modern technology trends."
+      },
+      "careers": {
+  "title": "Careers at Innovazy | Join Our Team of Innovators & Developers",
+  "description": "Explore exciting career opportunities at Innovazy and join a team passionate about technology, innovation, and digital transformation. Build impactful solutions and grow your professional journey with us."
+},
+      "industries": {
+        "title": "Industries We Serve – ERP, Odoo & Digital Solutions | Innovazy",
+        "description": "Innovazy delivers ERP, Odoo, custom software, web development, and automation solutions for healthcare, retail, and manufacturing industries."
+      },
+      "odoo": {
+          "title": "Odoo ERP Solutions for Seamless Business Growth | Innovazy",
+          "description": "Innovazy provides expert Odoo ERP implementation, customization, and integration services to optimize operations and automate business workflows."   
+      },
+        "testimonials": {
+          "title":"Testimonials || Innovazy LLC",
+          "description": "Testimonials by our clients"
+      },
+        "zatca": {
+        "title": "ZATCA E-Invoicing Software – FATOORA Compliance & ERP Integration | Innovazy",
+        "description": "Innovazy provides ZATCA e-invoicing solutions for Phase 2 compliance with seamless ERP integration, real-time reporting, and secure deployment in Saudi Arabia."
+      }
+    }
+  },
   "HomePage": {
     "title": "Welcome",
     "description": "This is a bilingual Next.js app"
+  },
+  "industries": {
+    "i": {
+      "title": "Industries",
+      "heading": "Industries We Serve with Advanced Digital Transformation Solutions",
+      "description": "Innovazy empowers businesses across diverse industries with custom software development, ERP solutions (Odoo), automation systems, and scalable digital platforms.",
+      "supportingText": "Tailored digital solutions built to help businesses innovate, scale, and succeed."
+    },
+    "sectionTwo": {
+      "mainHeading": "Industries We Empower",
+      "desc": "Innovazy delivers cutting-edge digital solutions tailored for diverse industries, enabling businesses to streamline operations, enhance efficiency, and drive sustainable growth through advanced technology and automation.",
+      "cards": {
+        "cardOne": {
+          "title": "Manufacturing Industry Solutions",
+          "desc": "We help manufacturing companies adopt Industry 4.0 technologies, ERP systems, and automation tools to streamline production, manage supply chains, and improve operational efficiency. Our solutions include:",
+          "p1": "Odoo ERP for manufacturing ",
+          "p2": "Inventory & production management systems ",
+          "p3": "Workflow automation & analytics "
+        },
+        "cardTwo": {
+          "title": "Retail & eCommerce Solutions",
+          "desc": "Innovazy delivers eCommerce platforms, POS systems, and omnichannel retail solutions that enhance customer experience and boost sales performance.",
+          "p1": "Shopify & custom eCommerce development ",
+          "p2": "Inventory & order management systems ",
+          "p3": "Digital marketing & SEO for retail "
+        },
+        "cardThree": {
+          "title": "Healthcare & Medical Solutions",
+          "desc": "We build secure, compliant healthcare systems including patient management software, telemedicine platforms, and medical websites.",
+          "p1": "Hospital management systems ",
+          "p2": "Appointment & patient portals ",
+          "p3": "HIPAA-compliant software "
+        },
+        "cardFour": {
+          "title": "Food & Beverage Industry (Restaurants, Cafes, Bakeries)",
+          "desc": "Innovazy creates restaurant management systems, online ordering platforms, and POS integrations to enhance customer engagement and operational efficiency.",
+          "p1": "Online food ordering systems ",
+          "p2": "Restaurant POS & inventory ",
+          "p3": "Branding & digital presence "
+        },
+        "cardFive": {
+          "title": "Construction & Real Estate Solutions",
+          "desc": "We provide real estate platforms, CRM systems, and construction project management tools to streamline operations and generate leads.",
+          "p1": "Property listing platforms ",
+          "p2": "Real estate CRM systems  ",
+          "p3": "Construction project tracking "
+        },
+        "cardSix": {
+          "title": "Service-Based Businesses",
+          "desc": "For service providers, we develop custom websites, booking systems, and automation tools that help generate leads and scale operations.",
+          "p1": "Appointment booking systems",
+          "p2": "CRM & workflow automation ",
+          "p3": "Lead generation funnels "
+        },
+        "cardSeven": {
+          "title": "Logistics & Transportation Solutions",
+          "desc": "Innovazy delivers fleet management systems, tracking solutions, and logistics automation tools to improve efficiency and reduce costs.",
+          "p1": "GPS tracking & fleet management ",
+          "p2": "Delivery management systems ",
+          "p3": "Logistics ERP integration "
+        },
+        "cardEight": {
+          "title": "Education & eLearning Solutions",
+          "desc": "We build eLearning platforms, LMS systems, and school management software that enhance digital education experiences.",
+          "p1": "Learning Management Systems (LMS) ",
+          "p2": "Student portals & dashboards ",
+          "p3": "Online course platforms "
+        }
+      }
+    },
+    "sectionThree": {
+      "mainHeading": "Solving Industry-Specific Digital Challenges with Smart Technology",
+      "desc": "Innovazy delivers industry-focused digital transformation solutions designed to solve real-world operational challenges. By combining ERP systems (Odoo), custom software development, cloud computing, and business automation tools, we help organizations streamline workflows, improve efficiency, and stay competitive in a rapidly evolving digital landscape."
+    },
+    "challengesData": [
+      {
+        "industry": "Manufacturing Industry",
+        "challenge": "Inefficient manual production tracking, lack of real-time visibility, and workflow bottlenecks",
+        "solution": "Advanced ERP for manufacturing, Industry 4.0 automation systems, real-time dashboards, and production optimization tools to improve operational efficiency and supply chain management"
+      },
+      {
+        "industry": "Retail & Wholesale",
+        "challenge": "Complex inventory management and lack of seamless online-offline integration",
+        "solution": "Omnichannel eCommerce solutions, POS systems, and real-time inventory management platforms that streamline sales, orders, and customer experience"
+      },
+      {
+        "industry": "Healthcare & Medical",
+        "challenge": "Secure patient data management, appointment scheduling, and regulatory compliance",
+        "solution": "HIPAA-compliant healthcare software, patient management systems, telemedicine platforms, and secure digital portals for improved care delivery"
+      },
+      {
+        "industry": "Food & Beverage Industry",
+        "challenge": "Managing online orders, customer engagement, and operational efficiency",
+        "solution": "Restaurant management systems, online food ordering platforms, POS integration, and digital branding solutions to enhance customer experience"
+      },
+      {
+        "industry": "Construction & Real Estate",
+        "challenge": "Property management, lead generation, and project tracking inefficiencies",
+        "solution": "Real estate CRM systems, property listing platforms, and construction project management software to streamline operations and increase conversions"
+      },
+      {
+        "industry": "Service-Based Businesses",
+        "challenge": "Customer acquisition, workflow inefficiencies, and lack of automation",
+        "solution": " Custom business websites, CRM systems, appointment booking tools, and workflow automation solutions to scale operations and improve service delivery"
+      },
+      {
+        "industry": "Logistics & Transportation",
+        "challenge": "Shipment tracking, fleet management, and operational visibility",
+        "solution": " Fleet management systems, GPS tracking solutions, logistics ERP, and real-time analytics dashboards to optimize supply chain operations"
+      },
+      {
+        "industry": "Education & eLearning",
+        "challenge": "Managing digital learning, student administration, and engagement",
+        "solution": "Learning Management Systems (LMS), eLearning platforms, student portals, and virtual classrooms for seamless digital education experiences"
+      }
+    ]
+  },
+  "appointment": {
+    "heading": "Book Your Appointment",
+    "desc": "Get started by booking your appointment",
+    "badge": "Meeting",
+    "formHeading1": "Get a free,",
+    "formHeading2": "consultation today",
+    "formDesc": "Take the first step toward smarter solutions—book your free consultation and discover how we can help you achieve your goals efficiently.",
+    "modal": {
+      "heading": "Book Your Appointment",
+      "subtitle": "Your Appointment will be book on {date}",
+      "nameLbl": "Full Name*",
+      "namePlh": "Your Name",
+      "emailLbl": "Email*",
+      "emailPlh": "xyz@mail.com",
+      "whatsappLbl": "Whatsapp*",
+      "whatsappPlh": "+000 000 0000 0000",
+      "noteLbl": "Note",
+      "notePlh": "Note...",
+      "submit": "Book Appointment",
+      "processing": "Processing...",
+      "requiredError": "Name, email and whatsapp number is required for booking",
+      "noSlots": "No Slots Available",
+      "noSlotsDesc": "We're fully booked for this date. Explore other available days to find a suitable time.",
+      "modalNameLbl": "Name",
+      "modalNamePlh": "Your Full Name",
+      "modalEmailLbl": "Email",
+      "modalEmailPlh": "xyz@gmail.com",
+      "modalWhatsappLbl": "Whatsapp",
+      "modalWhatsappPlh": "Whatsapp Number",
+      "modalNoteLbl": "Message",
+      "modalNotePlh": "Your Message....",
+      "slotNotAvailable": "No Slots Available!",
+      "slotNotAvailableDesc": "Slot is not available for this date."
+    }
+  },
+  "odoo": {
+    "o": {
+      "title": "Enterprise Odoo Solutions",
+      "heading": "Streamline Operations, Automate Workflows & Scale with Innovazy",
+      "description": "At Innovazy LLC, an official Odoo partner, we specialize in providing Odoo ERP solutions that help businesses enhance productivity, streamline operations, and drive sustainable growth. With our expertise in Odoo implementation, customization, and integration, we offer tailored solutions to automate workflows, improve business efficiency, and scale operations for success in a fast-changing market.",
+      "sectionOne": {
+        "mainHeading": "Transform Your Business with Odoo ERP Solution",
+        "desc": "Innovazy offers customized Odoo ERP services to optimize your operations, automate workflows, and accelerate growth. As an official Odoo partner, we provide seamless implementation, integration, and tailored solutions to drive efficiency and scalability for your business.",
+        "cardOne": {
+          "title": "Odoo ERP Implementation",
+          "desc": "We manage the complete Odoo setup process, from business analysis and system configuration to deployment and user training, ensuring a smooth and efficient transition."
+        },
+        "cardTwo": {
+          "title": "Custom Module Development",
+          "desc": "Our experts customize existing Odoo modules and build new features tailored to your unique workflows, helping you maximize operational efficiency."
+        },
+        "cardThree": {
+          "title": "System Integration",
+          "desc": "We integrate Odoo with third-party applications, payment gateways, eCommerce platforms, and legacy systems to create a unified and connected business environment."
+        },
+        "cardFour": {
+          "title": "Ongoing Support & Optimization",
+          "desc": "We provide continuous maintenance, performance optimization, and upgrades to keep your Odoo system secure, scalable, and aligned with your evolving business needs."
+        }
+      },
+      "sectionTwo": {
+        "mainHeading": "Core Areas of Focus",
+        "headingOne": "Streamlining Workflows for Improved Efficiency",
+        "lineOne": "We enhance operational performance by simplifying processes and automating workflows, allowing your business to run smoother and more efficiently.",
+        "headingTwo": "Customizing Odoo to Fit Your Unique Business Needs",
+        "lineTwo": "We adapt Odoo ERP modules to align perfectly with your business processes, ensuring tailored solutions that drive growth and agility."
+      },
+      "sectionAfterTwo": {
+        "mainHeading": "Why Choose Innovazy for Your Odoo ERP Solutions?",
+        "desc": "At Innovazy, we craft innovative Odoo ERP solutions that address real-world challenges. Our team ensures seamless integration, optimized workflows, and outstanding user experiences, helping your business achieve growth and operational excellence."
+      },
+      "sectionThree": {
+        "mainHeading": "Innovazy: Your Trusted Partner for Odoo ERP Solutions",
+        "desc": "Innovazy offers innovative Odoo ERP solutions that streamline your operations with seamless integration and scalable systems. We focus on delivering growth-driven solutions that enhance business efficiency and productivity, ensuring secure and reliable Odoo operations.",
+        "cardOne": {
+          "title": "Innovative Odoo Solutions for Your Business",
+          "desc": "We design forward-thinking Odoo ERP systems that simplify processes and enhance operational efficiency, ensuring your business stays ahead of the curve."
+        },
+        "cardTwo": {
+          "title": "Seamless Integration with Existing Systems",
+          "desc": "Our Odoo solutions integrate effortlessly with your current tools, platforms, and workflows, enabling smooth, uninterrupted operations across all departments."
+        },
+        "cardThree": {
+          "title": "Focused on Driving Business Growth",
+          "desc": "Our Odoo ERP solutions are crafted to increase productivity, reduce operational costs, and accelerate growth, helping your business achieve long-term success."
+        },
+        "cardFour": {
+          "title": "Scalable Solutions for Future Growth",
+          "desc": "As your business evolves, so does your Odoo system. Our scalable solutions allow easy integration of new apps and features, ensuring your operations remain flexible and ready for the future."
+        }
+      },
+      "sectionFour": {
+        "mainHeading": "Odoo ERP Solutions Across Industries",
+        "desc": "We offer customized Odoo ERP solutions that simplify operations, improve efficiency, and support sustainable growth across various sectors.",
+        "cards": {
+          "cardOne": {
+            "heading": "Manufacturing",
+            "highlight": "Smart Production",
+            "description": "Streamline procurement to delivery, ensuring efficiency and reducing waste.",
+            "image": "/assets/images/manufacturing.webp"
+          },
+          "cardTwo": {
+            "heading": "Retail & E-commerce",
+            "highlight": "Seamless Sales",
+            "description": "Manage inventory, orders, and customer relationships seamlessly.",
+            "image": "/assets/images/ecommerce.webp"
+          },
+          "cardThree": {
+            "heading": "Healthcare",
+            "highlight": "Simplified Care",
+            "description": "Enhance patient management, digital records, and medical digitization. ",
+            "image": "/assets/images/medical.webp"
+          },
+          "cardFour": {
+            "heading": "Finance & Accounting",
+            "highlight": "Accurate Insights",
+            "description": "Simplify financial processes with accurate, automated ERP tools. ",
+            "image": "/assets/images/finance.webp"
+          },
+          "cardFive": {
+            "heading": "Logistics & Distribution",
+            "highlight": "Efficient Delivery",
+            "description": "Optimize supply chains, deliveries, and distribution networks.",
+            "image": "/assets/images/logistics.webp"
+          }
+        }
+      }
+    }
+  },
+  "testimonials": {
+    "t": {
+  
+      "title": "Testimonials",
+      "heading": "Trusted by Businesses, Hear What Our Customers Say About Innovazy.",
+      "description": "Discover how Innovazy has helped businesses transform their digital presence through innovative solutions, exceptional service, and results that truly make an impact.",
+      "supportingText":  "See how Innovazy delivers impactful digital solutions that help businesses grow with confidence."
+    }
+  },
+  "zatca": {
+    "z": {
+      "title": "Zatca e-invoicing",
+      "heading": "Simplifying ZATCA E-Invoicing Compliance for Your Business ",
+      "description": "Innovazy delivers secure and scalable ZATCA e-invoicing solutions to help businesses achieve full compliance with Saudi Arabia’s FATOORA regulations (Phase 1 & Phase 2).",
+      "supportingText": "Ensure full ZATCA compliance with our secure and seamless e-invoicing solutions tailored for your business."
+    },
+    "keyFeatures": {
+      "headingSliceOne": "Key Features of Our ",
+      "headingSliceTwo": " ZATCA E-Invoicing Solution ",
+      "desc": "Innovazy’s ZATCA e-invoicing solution helps your business stay fully compliant with automated processes, real-time reporting, and seamless system integration—making invoicing accurate, secure, and hassle-free.",
+      "points": {
+        "one": {
+          "heading": "Seamless ERP Integration & Compatibility",
+          "desc": "Our solution integrates smoothly with leading ERP systems such as SAP Business One, Oracle, Microsoft Dynamics, and custom-built platforms, enabling efficient invoice processing and data synchronization."
+        },
+        "two": {
+          "heading": "Flexible Deployment (Cloud & On-Premise)",
+          "desc": "Choose between secure cloud-based solutions or on-premise deployment with data hosting options within Saudi Arabia, ensuring compliance with local data residency regulations."
+        },
+        "three": {
+          "heading": "ZATCA (FATOORA) Compliance & Certification",
+          "desc": "Our e-invoicing system is fully compliant with ZATCA requirements, ensuring that invoices meet regulatory standards, are audit-ready, and follow digital signature and QR code protocols."
+        }
+      }
+    },
+    "industries": {
+      "headingSliceOne": "ZATCA E-Invoicing Solutions for",
+      "headingSliceTwo": "Multiple Industries",
+      "subHeadingSliceOne": "Your industry, our",
+      "subHeadingSliceTwo": "ZATCA",
+      "subHeadingSliceThree": "solution.",
+      "desc": "Innovazy provides industry-specific ZATCA solutions for retail, manufacturing, healthcare, logistics, and service-based businesses. Our solutions ensure compliance while improving invoicing workflows, financial reporting, and operational efficiency."
+    },
+    "invoicing": {
+      "headingSliceOne": "Built on Reliable & ",
+      "headingSliceTwo": "Proven Technology",
+      "desc": "Our platform is designed with secure architecture and is actively used within the Innovazy ecosystem, ensuring reliability, performance, and compliance. You benefit from a system that is tested, trusted, and optimized for real-world business operations."
+    },
+    "suite": {
+      "headingSliceOne": "Ensure ",
+      "headingSliceTwo": "ZATCA Compliance ",
+      "headingSliceThree": "with Confidence.",
+      "desc": "Innovazy helps businesses across Saudi Arabia, the USA, and globally implement secure and compliant e-invoicing solutions that streamline operations and support digital transformation."
+    }
+  },
+  "home": {
+    "hero": {
+      "badge": "Powering Modern Businesses",
+      "heading": "Scalable ERP, CRM & Custom Software That Drives Real Growth",
+      "description": "We design and develop powerful business systems that streamline operations, improve efficiency, and help companies scale with confidence.",
+      "cta": "Get a Quote"
+    },
+    "about": {
+      "sectionHeading": "About Innovazy",
+      "sectionDesc": "Trusted by leading businesses worldwide for delivering reliable and scalable digital solutions.",
+      "heading": "Innovazy engineers the future of business by bridging radical ambition with the seamless versatility of Odoo.",
+      "description": "We don't just implement software; we architect growth. By tailoring Odoo's comprehensive suite to your unique radical ideas, we eliminate operational friction and automate success.",
+      "learnMore": "Learn More",
+      "p1": "Proven Expertise in Modern Development",
+      "p2": "Scalable and Future-Ready Solutions",
+      "p3": "User-Centric UI/UX Design",
+      "p4": "Fast and Agile Development Process",
+      "p5": "Performance, Security & Reliability First",
+      "p6": "Dedicated Support & Maintenance",
+      "p7": "Transparent Communication",
+      "p8": "Growth-Focused Approach"
+    },
+    "stats": {
+      "projectsDelivered": "Projects Delivered",
+      "happyClients": "Happy Clients",
+      "yearsOfExcellence": "Years of Excellence",
+      "clientRetentionRate": "Client Retention Rate"
+    },
+    "clients": {
+      "sectionHeading": "Our Featured Clients",
+      "sectionDesc": "Trusted by leading businesses worldwide for delivering reliable and scalable digital solutions."
+    },
+    "partners": {
+      "heading": "Our Valued Partners in Accelerating Growth and Collective Success",
+      "description": "We collaborate with forward-thinking partners to drive innovation, unlock new opportunities, and achieve shared success through strategic alignment and long-term vision."
+    },
+    "cta": {
+      "heading": "Start Your Project with Innovazy Today",
+      "description": "From idea to execution, we deliver scalable, high-performance digital solutions tailored to your business needs."
+    },
+    "reviews": {
+      "sectionHeading": "Our Reviews",
+      "sectionDesc": "What our clients say about working with Innovazy.",
+      "viewAll": "View All Reviews"
+    },
+    "contact": {
+      "badge": "Contact Us",
+      "heading1": "Let's Talk About",
+      "heading2": "Your Project",
+      "description": "From idea to execution, we work closely with you to build efficient, scalable Odoo systems tailored to your needs.",
+      "formHeading": "Get In Touch",
+      "nameLbl": "Name",
+      "namePlh": "Your Name",
+      "emailLbl": "Email",
+      "emailPlh": "xyz@gmail.com",
+      "phoneLbl": "Phone",
+      "phonePlh": "Your Phone Number",
+      "messageLbl": "Message",
+      "messagePlh": "Your Message",
+      "submit": "Submit"
+    }
+  },
+  "navbar": {
+    "home": "Home",
+    "aboutUs": "About Us",
+    "odoo": "Odoo",
+    "zatca": "Zatca",
+    "resources": "Resources",
+    "industries": "Industries",
+    "careers": "Careers",
+    "testimonials": "Testimonials",
+    "blogs": "Blogs",
+    "getConsultation": "Get a Free Consultation"
+  },
+  "footer": {
+    "cta": "Have a project in mind? Let's build something amazing together.",
+    "letsTalk": "Let's Talk",
+    "copyright": "\u00a9 2026 Innovazy. All rights reserved",
+    "quickLinks": "Quick Links",
+    "home": "Home",
+    "aboutUs": "About Us",
+    "privacyPolicy": "Privacy Policy",
+    "termsAndConditions": "Terms and Conditions",
+    "connect": "Connect",
+    "location": "Riyadh, Saudi Arabia"
+  },
+  "common2": {
+    "scrollDown": "SCROLL DOWN",
+    "getQuote": "Get a Quote",
+    "exploreMore": "Explore More",
+    "exploreSuite": "Explore Suite"
+  },
+  "industriesTable": {
+    "industry": "Industry",
+    "challenge": "Challenge",
+    "solution": "Solution"
+  },
+  "faq": {
+    "badge": "Frequently Asked Questions",
+    "heading1": "Your questions,",
+    "heading2": "answered",
+    "description": "Everything you need to know about working with Innovazy, all in one place.",
+    "questions": [
+        {
+            "q": "What services does Innovazy offer?",
+            "a": "Innovazy specializes in Odoo development, customization, implementation, and ERP solutions tailored to streamline business operations."
+        },
+        {
+            "q": "What is Odoo and how can it help my business?",
+            "a": "Odoo is an all-in-one business management platform that integrates CRM, sales, inventory, accounting, HR, and more to improve efficiency and productivity."
+        },
+        {
+            "q": "Do you provide custom Odoo module development?",
+            "a": "Yes, we develop custom Odoo modules based on your unique business requirements to ensure seamless workflow automation."
+        },
+        {
+            "q": "Can you customize existing Odoo modules?",
+            "a": "Yes, we can modify and extend existing Odoo modules to better fit your processes and business needs."
+        },
+        {
+            "q": "How long does an Odoo implementation take?",
+            "a": "The timeline depends on the complexity of the system and requirements, but most implementations are completed within a few weeks with structured planning."
+        },
+        {
+            "q": "Do you offer Odoo integration with third-party tools?",
+            "a": "Yes, we integrate Odoo with third-party systems such as payment gateways, APIs, and external platforms to enhance functionality."
+        },
+        {
+            "q": "Will I receive support after implementation?",
+            "a": "Yes, we provide ongoing support and maintenance to ensure your Odoo system runs smoothly and stays up to date."
+        },
+        {
+            "q": "Do you help migrate data to Odoo?",
+            "a": "Yes, we assist in secure and accurate data migration from your existing systems to Odoo without disrupting your operations."
+        },
+        {
+            "q": "Is Odoo suitable for small businesses?",
+            "a": "Yes, Odoo is highly scalable and works efficiently for startups, small businesses, and large enterprises alike."
+        },
+        {
+            "q": "How can I get started with Innovazy?",
+            "a": "You can get started by reaching out through the contact section, and we will guide you through the consultation and onboarding process."
+        }
+    ]
   }
 }
