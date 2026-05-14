@@ -37,25 +37,25 @@ const TestimonialWrapper = () => {
         }
     }
     return (
-        <div className='block relative w-full box-border mt-16 h-[65vh]'>
+        <div className='block relative w-full box-border mt-16 h-[65vh] overflow-hidden'>
             <div className='grid grid-rows-2 sm:grid-cols-4 items-start relative h-full w-full gap-6'>
                 <div className='block absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 h-[800px] w-[800px] rounded-full bg-primary-orange/20 blur-[180px]'></div>
-                <div className='flex animate-scroll-right flex-row sm:flex-col gap-6 sm:animate-scroll-up'>
+                <div className='flex flex-row sm:flex-col gap-6 animate-scroll-up'>
                     {[...testimonials, ...testimonials].map((data, ind) => (
                         <TestimonialCard toggleModal={toggleModal} data={data} key={ind} />
                     ))}
                 </div>
-                <div className='flex sm:animate-scroll-down flex-row sm:flex-col gap-6 animate-scroll-left'>
+                <div className='flex animate-scroll-down flex-row sm:flex-col gap-6'>
                     {[...testimonials, ...testimonials].map((data, ind) => (
                         <TestimonialCard toggleModal={toggleModal} data={data} key={ind} />
                     ))}
                 </div>
-                <div className='hidden sm:flex overflow-hidden sm:animate-scroll-up flex-row sm:flex-col gap-6 scrollRight'>
+                <div className='hidden sm:flex overflow-hidden animate-scroll-up flex-row sm:flex-col gap-6 '>
                     {[...testimonials, ...testimonials].map((data, ind) => (
                         <TestimonialCard toggleModal={toggleModal} data={data} key={ind} />
                     ))}
                 </div>
-                <div className='hidden sm:flex sm:animate-scroll-down flex-row sm:flex-col gap-6 scrollLeft'>
+                <div className='hidden sm:flex animate-scroll-down flex-row sm:flex-col gap-6'>
                     {[...testimonials, ...testimonials].map((data, ind) => (
                         <TestimonialCard toggleModal={toggleModal} data={data} key={ind} />
                     ))}
