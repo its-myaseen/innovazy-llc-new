@@ -34,7 +34,7 @@ const OurLeadership = () => {
             <div className='flex flex-wrap justify-center gap-6 items-start w-full box-border'>
                 {team.map((data, ind) => {
                     return (
-                        <div className='flex flex-col justify-start items-center relative w-[300px] p-8 bg-white/5 border border-white/10 rounded-xl overflow-hidden'>
+                        <div key={ind} className='flex flex-col justify-start items-center relative w-[300px] p-8 bg-white/5 border border-white/10 rounded-xl overflow-hidden'>
                             <div className='block relative h-[80px] w-[80px] rounded-full overflow-hidden'>
                                 <img src={data.image} alt="Leadership Image" className='block relative h-full w-full rounded-full object-cover overflow-hidden' />
                             </div>

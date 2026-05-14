@@ -3,7 +3,7 @@ import { IoLocationOutline } from "react-icons/io5";
 import { BsClockHistory } from "react-icons/bs";
 
 
-const JobHeader = ({ JobTitle, JobTagLine, Location, JobType }) => {
+const JobHeader = ({ JobTitle, JobTagLine, Location, JobType }: any)=> {
     return (
         <div className='block relative box-border pt-26'>
             <div className='flex justify-between items-start flex-col relative w-full box-border h-[80vh] overflow-hidden rounded-xl'>

@@ -1,6 +1,6 @@
 import React from 'react'
 
-const BlogHeader = ({ data }) => {
+const BlogHeader = ({ data }: { data: any }) => {
     return (
         <div className='flex justify-start items-end relative w-full box-border pt-26'>
             <img 

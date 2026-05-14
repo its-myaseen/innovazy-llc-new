@@ -11,7 +11,8 @@ import Contact from '@/app/components/home/Contact'
 import CTA from '@/app/components/home/CTA'
 import { getTranslations } from 'next-intl/server'
 
-export async function generateMetadata({ params: { locale } }) {
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
+  const {locale} = await params
   const t = await getTranslations({ locale, namespace: 'common.meta.zatca' });
   const baseUrl = 'https://innovazy.com';
   const l = locale == "en" ? "en" : "ar";

@@ -1,6 +1,6 @@
 import edjsHTML from "editorjs-html";
 
-const EditorJsRenderer = ({ data }) => {
+const EditorJsRenderer = ({ data }:any) => {
   let content = data?.content || data;
 
   if (typeof content === 'string') {

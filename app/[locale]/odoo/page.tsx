@@ -10,7 +10,8 @@ import Script from "next/script";
 import WhyInnovazyForOdoo from "@/app/components/odoo/WhyInnovazyForOdoo";
 const WhyOdoo = dynamic(() => import("@/app/components/odoo/WhyOdoo"));
 
-export async function generateMetadata({ params: { locale } }) {
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
+  const {locale} = await params
   const t = await getTranslations({ locale, namespace: "common.meta.odoo" });
   const baseUrl = "https://innovazy.com";
   const l = locale == "en" ? "en" : "ar";

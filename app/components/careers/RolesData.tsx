@@ -5,7 +5,7 @@ import { MdOpenInNew } from "react-icons/md";
 import { RiChatSmile2Line } from "react-icons/ri";
 import { useTranslations } from 'next-intl';
 
-const RoleCard = ({ data, t }) => {
+const RoleCard = ({ data, t }:any) => {
     return (
         <Link href={`/careers/${data._id || data.id}`} className='block relative w-full box-border group cursor-pointer pb-10'>
             <span className='block relative w-full h-[1px] bg-white/20'></span>
@@ -34,7 +34,7 @@ const RoleCard = ({ data, t }) => {
     )
 }
 
-const RolesNA = ({ t }) => {
+const RolesNA = ({ t }:any) => {
     return (
         <div className='flex flex-col justify-center items-center gap-8 relative w-full pb-16'>
             <RiChatSmile2Line className="text-primary-orange/40 mx-auto text-[150px]"/>
@@ -74,7 +74,7 @@ const RolesData = async () => {
                 // <p className='text-center text-red-500'>{error}</p>
                 <RolesNA t={t} />
             ) : jobs.length > 0 ? (
-                jobs.map((job) => (
+                jobs.map((job:any) => (
                     <RoleCard key={job.id || job._id} data={job} t={t} />   // ← pass data as prop
                 ))
             ) : (

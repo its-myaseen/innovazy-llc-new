@@ -10,7 +10,8 @@ import SpotlightCards from '@/app/components/about/SpotlightCards';
 import OurLeadership from '@/app/components/about/OurLeadership';
 
 
-export async function generateMetadata({ params: { locale } }) {
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
+    const {locale} = await params
     const t = await getTranslations({ locale, namespace: 'common.meta.about-us' });
     const baseUrl = 'https://innovazy.com';
     const l = locale == "en" ? "" : "ar/";

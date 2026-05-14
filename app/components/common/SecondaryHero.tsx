@@ -5,7 +5,7 @@ import { useTranslations } from 'next-intl';
 import { PiArrowCircleDownThin } from "react-icons/pi";
 import Link from 'next/link';
 
-const Hero = ({ locale, set }) => {
+const Hero = ({ locale, set }:any) => {
     const t = useTranslations(locale)
     const tCommon2 = useTranslations('common2')
 

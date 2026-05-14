@@ -1,6 +1,6 @@
 import React from 'react'
 
-const TestimonialCard = ({ data, toggleModal }) => {
+const TestimonialCard = ({ data, toggleModal }:any) => {
   return (
     <div onClick={()=>toggleModal(data)} className="block relative w-full box-border p-4 bg-black hover:bg-transparent cursor-pointer rounded-xl border border-white/10 flex-1 min-w-[300px]">
 

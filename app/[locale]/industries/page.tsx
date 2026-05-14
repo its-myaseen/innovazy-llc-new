@@ -8,7 +8,8 @@ import OurReviews from '@/app/components/home/OurReviews';
 import CTA from '@/app/components/home/CTA'
 
 
-export async function generateMetadata({ params: { locale } }) {
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
+  const {locale} = await params
   const t = await getTranslations({ locale, namespace: 'common.meta.industries' });
   const baseUrl = 'https://innovazy.com';
   const l = locale == "en" ? "en" : "ar";

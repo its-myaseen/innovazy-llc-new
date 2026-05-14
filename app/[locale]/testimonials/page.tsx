@@ -10,7 +10,8 @@ import CTA from '@/app/components/home/CTA'
 import Faq from  '@/app/components/common/Faq'
 import Contact from '@/app/components/home/Contact'
 
-export async function generateMetadata({ params: { locale } }) {
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
+  const {locale} = await params
   const t = await getTranslations({ locale, namespace: 'common.meta.testimonials' });
   const baseUrl = 'https://innovazy.com';
   const l = locale == "en" ? "" : "ar/";

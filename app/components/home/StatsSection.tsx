@@ -5,7 +5,7 @@ import { FaAward, FaProjectDiagram, FaUsers, FaRegClock, FaCalendarAlt, FaHandsh
 import { FaFolderOpen } from "react-icons/fa";
 import { useTranslations } from 'next-intl';
 
-const Counter = ({ end, suffix = '' }) => {
+const Counter = ({ end, suffix = '' }:any) => {
     const [count, setCount] = useState(0);
     const ref = useRef(null);
 
