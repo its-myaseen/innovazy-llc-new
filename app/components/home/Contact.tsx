@@ -25,11 +25,11 @@ const Contact = () => {
                 </p>
             </div>
             <div className="block relative w-full sm:flex-1 box-border space-y-6">
-                <form className="block relative w-full box-border p-12 bg-white/5 rounded-xl">
+                <form className="block relative w-full box-border p-6 sm:p-12 bg-white/5 rounded-xl">
                 <h2 className="block  relative  text-3xl text-primary-orange  font-poppins">{t('formHeading')}</h2>
                     <label className='block relative font-light text-[13px] ml-1 text-white/70 mt-10'>
                         {t('nameLbl')}
-                    </label>
+                    </label>;
                     <div className='block relative mt-1 box-border'>
                         <input type="text" placeholder={t('namePlh')} className='block relative pr-12 w-full px-4 text-md py-3 ring-0 outline-none text-white/80 bg-black border border-white/10 rounded-lg' />
                         <MdOutlinePersonOutline className="block absolute top-4 right-4 text-lg text-primary-orange " />

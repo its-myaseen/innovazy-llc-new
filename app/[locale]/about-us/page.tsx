@@ -43,8 +43,7 @@ export default async function AboutUs({ params }: { params: Promise<{ locale: st
     return (
         <div className="block relative box-border px-8 sm:px-16">
             <SecondaryHero locale="about-us" set="a" />
-            <SpotlightCards/>
-            <OurLeadership/>
+            {/* <SpotlightCards/> */}
             <CTA />
             <Contact />
             <Faq />

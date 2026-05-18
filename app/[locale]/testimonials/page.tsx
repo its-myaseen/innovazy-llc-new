@@ -6,6 +6,7 @@ const ChallengesTable = dynamic(() => import("@/app/components/Industries/Challe
 import SecondaryHero from '@/app/components/common/SecondaryHero'
 import OurReviews from '@/app/components/home/OurReviews';
 import CTA from '@/app/components/home/CTA'
+import TestimonialsGrid from  '@/app/components/testimonials/TestimonialsGrid'
 
 import Faq from  '@/app/components/common/Faq'
 import Contact from '@/app/components/home/Contact'
@@ -50,7 +51,8 @@ export default function Industries() {
         <ServicesHeader locale="industries" set="i" isTitle={true} />
       </div> */}
       <SecondaryHero locale="testimonials" set="t"  />
-      <OurReviews/>
+      {/* <OurReviews/> */}
+      <TestimonialsGrid/>
       <CTA/>
       <Contact/>
       <Faq/>

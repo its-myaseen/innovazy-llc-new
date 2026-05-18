@@ -57,7 +57,7 @@ const StatsSection = () => {
     ];
 
     return (
-        <div className="bg-transparent pb-16">
+        <div className="bg-transparent pb-16 pt-16">
             <div className="max-w-6xl mx-auto px-6">
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
                     {stats.map((stat, index) => (
@@ -67,13 +67,11 @@ const StatsSection = () => {
                             </div>
                             <div className='block relative box-border'>
                                 <Counter end={stat.number} suffix={stat.suffix} />
-                                <p className="text-white/80 font-poppinsRegular leading-snug font-medium text-lg">
+                                <p className="text-white/80 font-poppinsRegular leading-snug font-medium text-lg text-start">
                                     {stat.label}
                                 </p>
                             </div>
-                            {index < stats.length - 1 && (
-                                <div className="h-px w-16 bg-gray-200 mt-8 block sm:hidden" />
-                            )}
+                           
                         </div>
                     ))}
                 </div>

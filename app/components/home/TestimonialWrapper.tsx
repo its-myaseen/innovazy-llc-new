@@ -13,6 +13,7 @@ interface reviewInterface {
     category: any,
 
 }
+
 const TestimonialWrapper = () => {
     const [isModal, setIsModal] = useState(false)
     const [review, setReview] = useState<reviewInterface>({
@@ -37,32 +38,32 @@ const TestimonialWrapper = () => {
         }
     }
     return (
-        <div className='block relative w-full box-border mt-16 h-[65vh] overflow-hidden'>
-            <div className='grid grid-rows-2 sm:grid-cols-4 items-start relative h-full w-full gap-6'>
-                <div className='block absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 h-[800px] w-[800px] rounded-full bg-primary-orange/20 blur-[180px]'></div>
-                <div className='flex flex-row sm:flex-col gap-6 animate-scroll-up'>
+        <div className='block relative w-full box-border mt-16 h-[80vh] md:h-[65vh] md:overflow-hidden'>
+            <div className='grid grid-rows-2 md:grid-cols-4 items-start relative h-full w-full gap-6'>
+                <div className='hidden md:block absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 h-[800px] w-[800px] rounded-full bg-primary-orange/20 blur-[180px]'></div>
+                <div className='flex relative flex-row md:flex-col gap-6 animate-scroll-up box-border'>
                     {[...testimonials, ...testimonials].map((data, ind) => (
                         <TestimonialCard toggleModal={toggleModal} data={data} key={ind} />
                     ))}
                 </div>
-                <div className='flex animate-scroll-down flex-row sm:flex-col gap-6'>
+                <div className='flex relative animate-scroll-down flex-row md:flex-col gap-6 box-border'>
                     {[...testimonials, ...testimonials].map((data, ind) => (
                         <TestimonialCard toggleModal={toggleModal} data={data} key={ind} />
                     ))}
                 </div>
-                <div className='hidden sm:flex overflow-hidden animate-scroll-up flex-row sm:flex-col gap-6 '>
+                <div className='hidden md:flex overflow-hidden animate-scroll-up flex-row sm:flex-col gap-6 '>
                     {[...testimonials, ...testimonials].map((data, ind) => (
                         <TestimonialCard toggleModal={toggleModal} data={data} key={ind} />
                     ))}
                 </div>
-                <div className='hidden sm:flex animate-scroll-down flex-row sm:flex-col gap-6'>
+                <div className='hidden md:flex animate-scroll-down flex-row sm:flex-col gap-6'>
                     {[...testimonials, ...testimonials].map((data, ind) => (
                         <TestimonialCard toggleModal={toggleModal} data={data} key={ind} />
                     ))}
                 </div>
             </div>
-            <div className='hidden sm:block pointer-events-none absolute w-full h-[30%] bg-gradient-to-t from-black to-transparent bottom-0 left-0'></div>
-            <div className='hidden sm:block pointer-events-none absolute w-full h-[30%] bg-gradient-to-b from-black to-transparent top-0 left-0'></div>
+            <div className='hidden md:block pointer-events-none absolute w-full h-[30%] bg-gradient-to-t from-black to-transparent bottom-0 left-0'></div>
+            <div className='hidden md:block pointer-events-none absolute w-full h-[30%] bg-gradient-to-b from-black to-transparent top-0 left-0'></div>
 
             {
                 isModal && <div className='flex fixed justify-center items-center h-screen  w-full inset-0 z-[500] backdrop-blur-2xl'>

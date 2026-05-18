@@ -2,9 +2,9 @@ import React from 'react'
 
 const SpotlightCards = () => {
     return (
-        <div className='block relative w-full min-h-screen box-border space-y-6 z-100 mt-16 pb-326'>
+        <div className='block relative w-full box-border space-y-6 z-100 mt-16 pb-326'>
             <div className='flex lg:flex-row flex-col justify-between items-center gap-6 w-full relative box-border '>
-                <div style={{ height: '450px' }} className="block group relative h-full flex-1 rounded-xl overflow-hidden">
+                <div style={{ height: '450px' }} className="block group relative  w-full md:w-auto md:h-full flex-1 rounded-xl overflow-hidden">
                     <img src="/assets/images/laptop.png" alt="Innovazy About" className='absolute group-hover:scale-110 durartion-700 transition-transform ease-in-out inset-0 h-full w-full' />
                     <div className='block absolute bottom-0 left-0 w-full box-border px-8 pb-8'>
                         <div className='block relative w-full box-border p-6 bg-black opacity-80 backdrop-blur-2xl rounded-xl'>
@@ -13,7 +13,6 @@ const SpotlightCards = () => {
                         </div>
                     </div>
                 </div>
-
                 <div style={{ height: '450px' }} className='flex flex-col justify-start items-start relative overflow-hidden h-full w-[300px] rounded-xl bg-white/5 border-white/10 border px-6'>
                     <h4 className='block relative text-2xl max-w-[350px] mt-6 font-semibold  font-poppins text-primary-orange leading-tight'>Sell Everywhere Seamlessly</h4>
                     <p className='text-white/70 text-sm max-w-[300px] mt-3 leading-tight'>Build scalable online stores fully integrated with inventory, payments, and customer management.</p>

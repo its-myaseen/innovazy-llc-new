@@ -73,23 +73,27 @@ html {
   }
 }
 
+@media (max-width: 768px) {
+  .animate-scroll-up {
+  animation: scrollRight 90s linear infinite;
+}
+.animate-scroll-down {
+   animation: scrollLeft 90s linear infinite;
 
-.animate-scroll-up {
+}
+}
+
+@media (min-width: 769px) {
+  .animate-scroll-up {
   animation: scrollUp 95s linear infinite;
 }
-
-
-.animate-scroll-right {
-  animation: scrollRight 95s linear infinite;
-}
-
 .animate-scroll-down {
   animation: scrollDown 95s linear infinite;
 }
-
-.animate-scroll-left {
-  animation: scrollLeft 95s linear infinite;
 }
+
+
+
 
 .swiper,
 .swiper-wrapper {

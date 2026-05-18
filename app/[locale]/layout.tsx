@@ -21,8 +21,8 @@ const Layout = ({
     }
   }, [pathname]);
   return (
-    <div className="block relative w-full box-border min-h-full bg-black">
-      <div className="block relative max-w-[1600px] bg-black mx-auto overflow-hidden">
+    <div className="block relative w-full box-border w-full overflow-hidden min-h-full bg-black">
+      <div className="block relative max-w-[1600px] bg-black mx-auto">
         <Navbar />
         {children}
         <Footer />

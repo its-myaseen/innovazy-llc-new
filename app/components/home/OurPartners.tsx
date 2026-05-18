@@ -8,18 +8,18 @@ const OurPartners = () => {
         "/assets/partners/odooLogo.webp", "/assets/partners/Huawie.webp", "/assets/clients/1.webp", "/assets/clients/10.webp"
     ]
     return (
-        <div className='flex flex-col sm:flex-row w-full items-start pb-26 gap-16 mt-16'>
+        <div className='flex flex-col lg:flex-row w-full justify-start sm:items-center lg:justify-start pb-26 gap-16 mt-16'>
             <div className='block relative flex-1 box-border'>
-                <h1 className='block relative text-white text-5xl  max-w-[600px]'>
+                <h1 className='block relative text-white text-5xl lg:text-start sm:text-center text-start  max-w-[600px]'>
                     {t('heading')}
                 </h1>
-                <p className='block relative box-border max-w-[500px] mt-6 text-md text-white/70'>
+                <p className='block relative box-border max-w-[500px] lg:text-start  lg:mx-0 sm:mx-auto mx-0  sm:text-center text-start mt-6 text-md text-white/70'>
                     {t('description')}
                 </p>
             </div>
 
             <div className='block relative flex-1 box-border'>
-                 <div dir="ltr" className='flex flex-row justify-center items-center gap-[10px] md:gap-4 w-[80%] mt-6'>
+                 <div dir="ltr" className='flex flex-row justify-center items-center sm:mx-auto lg:mx-0 mx-0 gap-[10px] md:gap-4 w-[80%] mt-6'>
                         <div className=' hidden sm:flex h-[10px] sm:h-[100px] items-center justify-center'>
                             <Image height={242} width={111} src="/assets/ui/left_leaf.webp" alt={`Partner`} className='w-full h-full object-contain' />
                         </div>

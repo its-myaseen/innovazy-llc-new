@@ -16,7 +16,7 @@ const Hero = ({ locale, set }:any) => {
             <div className='absolute top-0 left-1/2 -translate-x-1/2 -translate-y-3/4 blur-[280px] w-[45vw] h-[45vw] bg-primary-orange rounded-full'></div>
 
             {/* Main Container */}
-            <div className='flex flex-row justify-between items-start gap-12 relative w-full mt-16 px-6'>
+            <div className='flex flex-col lg:mt-0 mt-46 lg:flex-row justify-between items-start gap-12 relative w-full mt-16 px-6'>
 
                 {/* LEFT SIDE */}
                 <div className='flex flex-col flex-1'>
@@ -28,7 +28,7 @@ const Hero = ({ locale, set }:any) => {
                     </div>
 
                     {/* Heading */}
-                    <h1 className='text-[55px] leading-tight tracking-tight font-medium mt-6 text-white/90 font-figtree'>
+                    <h1 className='text-[40px] md:text-[55px] leading-tight tracking-tight font-medium mt-6 text-white/90 font-figtree'>
                         {t(`${set}.heading`)}
                     </h1>
 
